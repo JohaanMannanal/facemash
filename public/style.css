@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Andika+New+Basic&display=swap");
+
+body {
+  font-family: "Andika New Basic", sans-serif;
+  transition: background 0.55s;
+  margin: 5px;
+}
+
+header h1 {
+  width: 100%;
+  text-align: center;
+  background: #8b0003;
+  color: white;
+  margin-top: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+header h2 {
+  text-align: center;
+}
+
+header h3 {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+}
+
+.child {
+  padding: 14px;
+  margin: 2px;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.child:hover {
+  transform: scale(1.5);
+}
+
+.midtext {
+  margin: 10px;
+  height: 150px;
+  line-height: 150px; /* centrage vertical */
+}
+
+.undertext {
+  margin-top: 0;
+  text-align: center;
+  color: #09847c;
+}
+
+footer {
+  margin: 15px;
+  text-align: center;
+}
